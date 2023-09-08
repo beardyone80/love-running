@@ -117,4 +117,21 @@ footer {
         display: none;
     }
 
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /*Push main content down to allow for larger header*/
+    main {
+        margin-top: 79px;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;        
+    }
 }
