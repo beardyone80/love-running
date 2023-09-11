@@ -114,6 +114,24 @@ main {
     color: #ffffff;
 }
 
+/* Reasons Section */
+
+#reasons {
+    width: 90%;
+    margin: 20px auto 0px;
+    background-color: aquamarine;
+}
+
+#reasons > h2 {
+    font-size: 280%;
+    text-align: center;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin-top: 5px 0;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
