@@ -298,6 +298,16 @@ main {
     }
 }
 
+/* Sign-up */
+
+/* testing alternate method to list form in column 
+
+#signup-form {
+    display: flex;
+    flex-direction: column;
+}
+*/
+
 @media screen and (min-width: 1200px) {    
     /* Reasons section */
     #benefits {
