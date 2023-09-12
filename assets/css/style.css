@@ -160,6 +160,32 @@ main {
     justify-content: center;
 }
 
+/* meet up times section */
+
+#times {
+    background: url(../images/dublin-city.webp) no-repeat center / cover;
+    /*handles responsitivity without need for a media query */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#times div {
+    color: #ffffff;
+    background-color: rgba(0,0,0,.6);
+    padding: 15px;
+    /* this will not wrap on screens less than 400px but will grow to expand space on bigger screens */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* add a border around the meeting times */
+    border: 2px solid white;
+}
+
+#times div h3 {
+    /* override the color set in general styles */
+    color: #ffffff;
+}
+
+
 /* Footer */
 #social-networks {
     text-align: center;
